@@ -40,6 +40,6 @@ BASE URL: FORTHCOMING
 | &nbsp; |                          |                                                                                                       |                                    |
 | GET    | `/api/stories`           | get all stories                                                                                       |                                    |
 | POST   | `/api/:id/stories`       | create/send a new story; requirements forthcoming                                                     |                                    |
-| GET    | `/api/:id/stories`   | get a users stories                                                                                   |                                    |
+| GET    | `/api/:id/stories`       | get a users stories                                                                                   |                                    |
 | PUT    | `/api/:id/stories/:id`   | update user story; requires authorization                                                             |                                    |
 | DELETE | `/api/:id/stories/:id`   | delete a user's story; requires authorization                                                         |                                    |
