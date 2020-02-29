@@ -34,12 +34,12 @@ BASE URL: FORTHCOMING
 | Type   | Path                     | Notes                                                                         | Example                                                    |
 | ------ | ------------------------ | ----------------------------------------------------------------------------- | ---------------------------------------------------------- |
 | POST   | `/api/auth/register`     | register a new user                                                           |                                                            |
-| POST   | `/api/auth/login`        | login an user                                                                 |                                                            |
+| POST   | `/api/auth/login`        | login a new user                                                              |                                                            |
 | &nbsp; |                          |                                                                               |                                                            |
 | GET    | `/api/auth/users`        | get all users; requires authorization                                         |                                                            |
 | &nbsp; |                          |                                                                               |                                                            |
 | GET    | `/api/stories`           | get all stories                                                               |                                                            |
 | POST   | `/api/:id/stories`       | create/send a new story; requirements forthcoming                             |                                                            |
-| GET    | `/api/:id/stories`       | get a users stories                                                           |                                                            |
-| PUT    | `/api/:id/stories/:id`   | update user story; requires authorization                                     |                                                            |
+| GET    | `/api/:id/stories`       | get a user's stories                                                          |                                                            |
+| PUT    | `/api/:id/stories/:id`   | update user's story; requires authorization                                   |                                                            |
 | DELETE | `/api/:id/stories/:id`   | delete a user's story; requires authorization                                 |                                                            |
