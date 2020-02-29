@@ -20,6 +20,6 @@
 | name      | string  | _required_; name of the expat/story                                     |
 | image_URL | string  | story image                                                             |
 | location  | text    | _required_; story quote                                                 |
-| content   | text    | _required_; story of the refugee                                        |
+| content   | text    | _required_; story description blog memoir                               |
 | author    | text    | author of the story                                                     |
 | user_id   | integer | foreign key to link stories to user                                     |
